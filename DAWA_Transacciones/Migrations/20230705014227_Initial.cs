@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace DAWA_Transacciones.Migrations
+namespace ConsoleApp.Migrations
 {
     /// <inheritdoc />
     public partial class Initial : Migration

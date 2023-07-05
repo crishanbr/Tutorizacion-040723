@@ -1,4 +1,4 @@
-﻿using DAWA_Transacciones.Models;
+﻿using ConsoleApp.Models;
 
 class Program
 {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace DAWA_Transacciones.Models
+namespace ConsoleApp.Models
 {
     public class MusicaDbContext : DbContext
     {
@@ -10,7 +10,7 @@ namespace DAWA_Transacciones.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=MusicaDB;Trusted_Connection=true;Encrypt=false;");
+            optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=MusicaDB;Trusted_Connection=true;");
         }
     }
 }
